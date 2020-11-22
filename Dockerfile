@@ -1,4 +1,4 @@
-FROM centos
+FROM fedora
 MAINTAINER HARSH_MANGAL
 RUN dnf install httpd -y
 COPY webapp /var/www/html/
